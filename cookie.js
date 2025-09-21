@@ -3095,7 +3095,7 @@ function injectConsentHTML(detectedCookies, language = 'en') {
     /* Floating Settings Button */
     .cookie-settings-button {
         position: fixed;
-        bottom: 30px;
+        bottom: 96px;
         ${config.behavior.floatingButtonPosition === 'left' ? 'left: 30px;' : 'right: 30px;'}
         width: ${config.floatingButtonStyle.size};
         height: ${config.floatingButtonStyle.size};
@@ -3539,7 +3539,7 @@ function injectConsentHTML(detectedCookies, language = 'en') {
 /* Mobile-specific floating button */
 @media (max-width: 767px) {
     #cookieFloatingButton.mobile-only {
-        bottom: 20px;
+        bottom: 80px;
         right: 20px;
        /* left: auto; */
     }
