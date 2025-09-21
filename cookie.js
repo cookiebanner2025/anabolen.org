@@ -84,7 +84,7 @@ const config = {
     allowedDomains: ['anabolen.org'],
     
     // Privacy policy URL (configurable)
-    privacyPolicyUrl: 'https://yourdomain.com/privacy-policy', // Add your full privacy policy URL here
+    privacyPolicyUrl: 'https://anabolen.org/#privacy-policy', // Add your full privacy policy URL here
 
 
 
@@ -1044,8 +1044,8 @@ const translations = {
         description: "We gebruiken cookies om uw browse-ervaring te verbeteren, gepersonaliseerde advertenties of inhoud te bieden en ons verkeer te analyseren. Door op \"Alles accepteren\" te klikken, stemt u in met het gebruik van cookies.",
         privacy: "Privacybeleid",
         customize: "Aanpassen",
-        reject: "Alles",
-        accept: "Alles",
+        reject: "Weigeren",
+        accept: "Accepteren",
         essential: "Essentiële Cookies",
         essentialDesc: "Noodzakelijk voor websitefunctionaliteit",
         analytics: "Analysecookies",
@@ -2587,7 +2587,7 @@ function injectConsentHTML(detectedCookies, language = 'en') {
         </div>
     </div>
 
-// Floating Settings Button
+
 <div id="cookieFloatingButton" class="cookie-settings-button mobile-only" title="${lang.title}">
     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="none">
         <path d="M6 8H8.01V10H6V8Z" fill="currentColor"/>
